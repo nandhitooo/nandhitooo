@@ -1,6 +1,6 @@
 # 💫 About Me:
 
-i'm an Informatics Engineering student at the Electronic Engineering Polytechnic Institute of Surabaya (EEPIS) with a strong focus on front-end development. I build and refine user interfaces with attention to structure, responsiveness, and usability.<br><br>I sharpen my skills through consistent self-directed practice and hands-on work with modern technologies such as JavaScript, React, and Tailwind CSS to build interactive, scalable web applications.
+I'm an Informatics Engineering student at the Electronic Engineering Polytechnic Institute of Surabaya (EEPIS), and I enjoy building front-end experiences that are easy to use and work well on any screen. I spend my time learning by building with tools like JavaScript, React, and Tailwind CSS, and I'm always looking for new ways to make my projects better.
 
 ## 🌐 Socials:
 
