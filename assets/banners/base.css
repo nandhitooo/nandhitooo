@@ -1,0 +1,240 @@
+/* ============================================================
+   Shared HUD banner styles (1280x480)
+   Each banner HTML sets its accent tokens in an inline :root.
+   ============================================================ */
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  width: 1280px;
+  height: 480px;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  color: #e6f6ff;
+  position: relative;
+  background:
+    radial-gradient(900px 500px at 78% 45%, rgba(var(--a1), var(--r1, .24)), transparent 62%),
+    radial-gradient(700px 400px at 8% 100%, rgba(var(--a2), var(--r2, .14)), transparent 65%),
+    #060b12;
+}
+
+.grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(var(--grid), .055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(var(--grid), .055) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(120% 100% at 50% 50%, #000 40%, transparent 100%);
+}
+
+.frame {
+  position: absolute;
+  inset: 18px;
+  border: 1px solid var(--frame-border);
+}
+.frame::before,
+.frame::after {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border: 2px solid var(--bracket);
+}
+.frame::before { top: -2px; left: -2px; border-right: 0; border-bottom: 0; }
+.frame::after { bottom: -2px; right: -2px; border-left: 0; border-top: 0; }
+
+.scan {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(0deg, rgba(255, 255, 255, .022) 0 1px, transparent 1px 4px);
+}
+
+.glowline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(var(--glow1), .9), rgba(var(--glow2), .85), transparent);
+  box-shadow: 0 0 18px rgba(var(--glow1), .75);
+}
+.glowline.top { top: 18px; }
+.glowline.bottom { bottom: 18px; }
+
+.content {
+  position: absolute;
+  inset: 60px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+.left { width: 566px; }
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .42em;
+  color: var(--accent-ink);
+}
+.eyebrow::before {
+  content: "";
+  width: 34px;
+  height: 2px;
+  background: var(--accent-line);
+  box-shadow: 0 0 10px var(--accent-line);
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: var(--title-size);
+  line-height: 1.02;
+  letter-spacing: var(--title-ls);
+  background: linear-gradient(180deg, #ffffff 35%, var(--h1-end) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 22px var(--h1-glow));
+}
+h1 span {
+  display: block;
+  margin-top: 10px;
+  font-size: var(--span-size);
+  letter-spacing: var(--span-ls);
+  background: linear-gradient(180deg, var(--span-1), var(--span-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.sub {
+  margin-top: 22px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  color: var(--sub-ink);
+}
+
+.chips { display: flex; gap: 10px; margin-top: 26px; flex-wrap: wrap; }
+
+.chip {
+  padding: 7px 14px;
+  border: 1px solid var(--chip-border);
+  border-radius: 3px;
+  background: rgba(var(--chip-bg), .22);
+  color: var(--chip-ink);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.foot {
+  margin-top: 30px;
+  font-size: 15px;
+  letter-spacing: .2em;
+  color: var(--foot-ink);
+  opacity: .82;
+}
+
+/* --- Right-hand preview panel ------------------------------------- */
+
+.panel {
+  position: relative;
+  width: 522px;
+  height: 302px;
+  overflow: hidden;
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  background: #0b1220;
+  box-shadow:
+    0 0 0 1px rgba(8, 12, 20, .9),
+    0 24px 60px rgba(0, 0, 0, .65),
+    0 0 42px var(--panel-glow);
+}
+
+.panel .bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 26px;
+  padding: 0 10px;
+  background: rgba(6, 11, 18, .92);
+  border-bottom: 1px solid var(--bar-border);
+}
+.dot { width: 8px; height: 8px; border-radius: 50%; }
+
+/* Screenshot inside the panel: whole UI visible */
+.panel img.shot {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: calc(100% - 26px);
+  object-fit: contain;
+  object-position: center;
+  background: #0b1220;
+}
+
+/* Full-bleed artwork inside the panel */
+.panel img.cover {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: calc(100% - 26px);
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+/* App icon centered inside the panel */
+.panel .stage {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 26px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 45%, var(--stage-glow), transparent 62%);
+}
+.panel .stage img {
+  width: 186px;
+  height: 186px;
+  object-fit: contain;
+  border-radius: 40px;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, .14),
+    0 18px 46px rgba(0, 0, 0, .7),
+    0 0 44px var(--stage-glow);
+}
+.panel .ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 258px;
+  height: 258px;
+  transform: translate(-50%, -46%);
+  border: 1px dashed var(--ring-color);
+  border-radius: 50%;
+}
