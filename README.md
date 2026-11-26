@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=900&color=61DAFB&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Nandhitooo+%F0%9F%91%8B;Informatics+Engineering+student+%40+PENS;Front-end+developer+%E2%80%94+React+%2B+Tailwind+CSS;Always+learning%2C+always+building+%F0%9F%9A%80" alt="Typing SVG" />
 
-### I build front-end experiences that are easy to use and work on any screen.
+### I build any experiences that are easy to use and work normally.
 
 [![Profile Views](https://komarev.com/ghpvc/?username=nandhitooo&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/nandhitooo)
 [![Followers](https://img.shields.io/github/followers/nandhitooo?label=Followers&style=flat&color=0e75b6)](https://github.com/nandhitooo?tab=followers)
@@ -16,17 +16,17 @@
 ## 🧑‍💻 About Me
 
 ```yaml
-name:      Nandhitooo
-role:      Front-end Developer & Informatics Engineering Student
+name:      Fernandhito Dian Pratama
+role:      Fullstack Developer & Informatics Engineering Student
 campus:    Electronic Engineering Polytechnic Institute of Surabaya (EEPIS / PENS)
-location:  Surabaya, Indonesia
-focus:     React, Tailwind CSS, responsive UI
-motto:     "Learn by building, then make it better."
+location:  Nganjuk, East Java, Indonesia
+focus:     Web Development & Mobile Application
+motto:     "Do not pray for an easy life, pray for the strength to walk the line"
 ```
 
-- 🔭 Currently building front-end projects and polishing my UI skills
+- 🔭 Currently building on my Final Project and polishing my UI skills
 - 🌱 Learning more about **React**, **JavaScript**, and clean component design
-- 🤝 Open to collaborating on front-end and web projects
+- 🤝 Open to collaborating on web projects
 - 💬 Ask me about **HTML, CSS, JavaScript, React, or Tailwind CSS**
 - ⚡ Fun fact: I care about the details most people never notice
 
