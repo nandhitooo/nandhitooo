@@ -130,7 +130,7 @@ Final project: a QR-code based employee attendance system with admin & manager d
 <td width="50%" valign="top">
 
 <a href="https://github.com/nandhitooo/jarvis-rust">
-  <img src="https://github-readme-stats.shion.dev/api/pin/?username=nandhitooo&repo=jarvis-rust&theme=dark&hide_border=false&description_lines_count=3" width="100%" alt="Jarvis Rust repository card" />
+  <img src="assets/projects/jarvis-rust.jpg" width="100%" alt="JARVIS Discord Bot — cyberpunk HUD banner" />
 </a>
 
 **Discord bot, rewritten in Rust** — AI chat with model switching, image generation, moderation, and music streaming, with all Indonesian commands preserved from the Python original.
