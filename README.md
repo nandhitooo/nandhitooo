@@ -177,14 +177,33 @@ A Flutter workout tracker with an offline-first Hive + Firestore sync, calorie c
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.shion.dev/api?username=nandhitooo&theme=dark&hide_border=false&include_all_commits=false&count_private=false&show_icons=true" alt="GitHub stats" />
-<img height="170em" src="https://github-readme-stats.shion.dev/api/top-langs/?username=nandhitooo&theme=dark&hide_border=false&layout=compact&langs_count=8" alt="Top languages" />
+<sub>Pulled live from GitHub — the numbers update on their own.</sub>
 
-<img src="https://streak-stats.demolab.com/?user=nandhitooo&theme=dark&hide_border=false&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" />
+<table>
+  <tr>
+    <td width="49%" align="center" valign="top">
+      <img width="100%" src="https://github-readme-stats.shion.dev/api?username=nandhitooo&theme=dark&hide_border=true&bg_color=0d1117&include_all_commits=false&count_private=false&show_icons=true" alt="Stars, commits, PRs, issues and rank" />
+    </td>
+    <td width="49%" align="center" valign="top">
+      <img width="100%" src="https://streak-stats.demolab.com/?user=nandhitooo&theme=dark&hide_border=true&background=0D1117&date_format=j%20M%5B%20Y%5D" alt="Current and longest contribution streak" />
+    </td>
+  </tr>
+</table>
 
-<img src="https://github-profile-trophy.vercel.app/?username=nandhitooo&theme=darkhub&no-frame=false&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub trophies" />
+<img width="88%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nandhitooo&theme=github_dark" alt="Contribution summary for the last year" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nandhitooo&theme=react-dark&hide_border=true&area=true" alt="Contribution activity graph" />
+<table>
+  <tr>
+    <td width="44%" align="center" valign="top">
+      <img width="100%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=nandhitooo&theme=dark&hide_border=true&bg_color=0d1117&layout=compact&langs_count=8" alt="Most used languages" />
+    </td>
+    <td width="54%" align="center" valign="top">
+      <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nandhitooo&theme=github_dark&utcOffset=7" alt="Commits by hour of day (UTC+7)" />
+    </td>
+  </tr>
+</table>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nandhitooo&theme=react-dark&hide_border=true&area=true" alt="Daily contributions over the last 31 days" />
 
 </div>
 
