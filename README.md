@@ -114,11 +114,15 @@ Final project: a QR-code based employee attendance system with admin & manager d
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/nandhitooo/wgym-app">
-  <img src="https://github-readme-stats.shion.dev/api/pin/?username=nandhitooo&repo=wgym-app&theme=dark&hide_border=false&description_lines_count=3" width="100%" alt="W-GYM repository card" />
-</a>
+<p align="center">
+  <a href="https://github.com/nandhitooo/wgym-app">
+    <img src="assets/projects/wgym-logo.jpg" width="58%" alt="W-GYM app icon" />
+  </a>
+</p>
 
-**Flutter workout tracker** with an offline-first Hive + Firestore sync, calorie charts, BMI stats, dark mode, and English/Indonesian localization.
+### 🏋️ [W-GYM](https://github.com/nandhitooo/wgym-app)
+
+A Flutter workout tracker with an offline-first Hive + Firestore sync, calorie charts, BMI stats, dark mode, and English/Indonesian localization.
 
 ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
@@ -132,6 +136,8 @@ Final project: a QR-code based employee attendance system with admin & manager d
 <a href="https://github.com/nandhitooo/jarvis-rust">
   <img src="assets/projects/jarvis-rust.jpg" width="100%" alt="JARVIS Discord Bot — cyberpunk HUD banner" />
 </a>
+
+### 🤖 [Jarvis](https://github.com/nandhitooo/jarvis-rust)
 
 **Discord bot, rewritten in Rust** — AI chat with model switching, image generation, moderation, and music streaming, with all Indonesian commands preserved from the Python original.
 
