@@ -114,11 +114,9 @@ Final project: a QR-code based employee attendance system with admin & manager d
 <tr>
 <td width="50%" valign="top">
 
-<p align="center">
-  <a href="https://github.com/nandhitooo/wgym-app">
-    <img src="assets/projects/wgym-logo.jpg" width="58%" alt="W-GYM app icon" />
-  </a>
-</p>
+<a href="https://github.com/nandhitooo/wgym-app">
+  <img src="assets/projects/wgym-banner.jpg" width="100%" alt="W-GYM — Flutter workout tracker HUD banner" />
+</a>
 
 ### 🏋️ [W-GYM](https://github.com/nandhitooo/wgym-app)
 
@@ -134,7 +132,7 @@ A Flutter workout tracker with an offline-first Hive + Firestore sync, calorie c
 <td width="50%" valign="top">
 
 <a href="https://github.com/nandhitooo/jarvis-rust">
-  <img src="assets/projects/jarvis-rust.jpg" width="100%" alt="JARVIS Discord Bot — cyberpunk HUD banner" />
+  <img src="assets/projects/jarvis-rust.jpg" width="100%" alt="JARVIS — Rust Discord bot HUD banner" />
 </a>
 
 ### 🤖 [Jarvis](https://github.com/nandhitooo/jarvis-rust)
