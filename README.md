@@ -213,11 +213,15 @@ A Flutter workout tracker with an offline-first Hive + Firestore sync, calorie c
 
 <div align="center">
 
+<sub>My contribution grid, eaten by a snake and regenerated nightly by GitHub Actions.</sub>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nandhitooo/nandhitooo/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nandhitooo/nandhitooo/output/github-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/nandhitooo/nandhitooo/output/github-snake.svg" />
+  <img width="94%" alt="Snake eating my contributions" src="https://raw.githubusercontent.com/nandhitooo/nandhitooo/output/github-snake.svg" />
 </picture>
+
+<sub><a href="https://github.com/nandhitooo/nandhitooo/actions/workflows/snake.yml">workflow</a> · <a href="https://github.com/nandhitooo/nandhitooo/tree/output">output branch</a></sub>
 
 </div>
 
@@ -227,12 +231,38 @@ A Flutter workout tracker with an offline-first Hive + Firestore sync, calorie c
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge)](https://discord.com/users/612285180492906506)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge)](https://instagram.com/nandh1tooo_)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white&style=for-the-badge)](https://www.facebook.com/Nandhitooo/)
-[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white&style=for-the-badge)](https://tiktok.com/@nandhitooo_)
-[![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white&style=for-the-badge)](https://pinterest.com/Nandhitooo_)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:dhitopratama2005@gmail.com)
+<sub>Open to front-end and web collaborations — Discord or email gets the fastest reply.</sub>
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://discord.com/users/612285180492906506"><img height="28" src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a><br/>
+      <sub>DM open</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://instagram.com/nandh1tooo_"><img height="28" src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a><br/>
+      <sub>@nandh1tooo_</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href="mailto:dhitopratama2005@gmail.com"><img height="28" src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a><br/>
+      <sub>Send a message</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://www.facebook.com/Nandhitooo/"><img height="28" src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a><br/>
+      <sub>Nandhitooo</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://tiktok.com/@nandhitooo_"><img height="28" src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" /></a><br/>
+      <sub>@nandhitooo_</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://pinterest.com/Nandhitooo_"><img height="28" src="https://img.shields.io/badge/Pinterest-E60023?style=flat-square&logo=pinterest&logoColor=white" alt="Pinterest" /></a><br/>
+      <sub>Nandhitooo_</sub>
+    </td>
+  </tr>
+</table>
 
 <sub>Thanks for stopping by — say hi if you want to build something together! ✨</sub>
 
