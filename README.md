@@ -77,7 +77,7 @@ motto:     "Learn by building, then make it better."
 <td width="50%" valign="top">
 
 <a href="https://github.com/nandhitooo/markdown-converter-web">
-  <img src="assets/projects/markdown-converter.png" width="100%" alt="Markdown Converter — editor and live preview" />
+  <img src="assets/projects/markdown-converter-banner.jpg" width="100%" alt="Markdown Converter — DOCX/PDF to Markdown HUD banner" />
 </a>
 
 ### 📝 [Markdown Converter](https://github.com/nandhitooo/markdown-converter-web)
@@ -94,7 +94,7 @@ Convert DOCX/PDF ⇄ Markdown right in the browser — files never leave your de
 <td width="50%" valign="top">
 
 <a href="https://github.com/nandhitooo/bumdesma-absensi">
-  <img src="assets/projects/absensi-dashboard.png" width="100%" alt="BUMDESMA attendance dashboard" />
+  <img src="assets/projects/bumdesma-absensi-banner.jpg" width="100%" alt="BUMDESMA Absensi — QR attendance system HUD banner" />
 </a>
 
 ### 📋 [BUMDESMA Absensi](https://github.com/nandhitooo/bumdesma-absensi)
